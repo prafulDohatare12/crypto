@@ -31,6 +31,8 @@ class CryptoPortfolioApp extends StatelessWidget {
           colorSchemeSeed: const Color(0xFF3B82F6),
           useMaterial3: true,
         ),
+        debugShowCheckedModeBanner: false,
+        initialRoute: '/',
         routes: {
           '/': (_) => const SplashPage(),
           '/portfolio': (_) => const PortfolioPage(),
